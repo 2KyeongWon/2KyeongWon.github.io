@@ -15,11 +15,12 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-title                    : "이경원"
-title_separator          : "-"
-subtitle                 : "포트폴리오"
-name                     : "이경원"
-description              : "안녕하세요"
+locale: "en-US"
+title: "Site Title"
+title_separator: "-"
+subtitle: # site tagline that appears below site title in masthead
+name: "Your Name"
+description: "An amazing website."
 url                      : https://2KyeongWong.github.io
 baseurl                  : /2KyeongWon.github.io
 repository               : 2KyeongWon.github.io
