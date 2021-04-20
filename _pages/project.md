@@ -76,7 +76,6 @@ DB에 글과 댓글 기능을 만들어 기본 템플릿을 가져와 코딩만 
 
 테이블 이름: MEMBERS
 |순번|한글명|영문명|데이터타입|
-|:---:|:---:|:---:|:---:|
 |1|고객번호|MEMBER_NUM|NUMBER(5,0)|
 |2|고객이름|MEMBER_NAME|VARCHAR2(30)|
 |3|이메일|MEMBER_EMAIL|VARCHAR2(360)|
