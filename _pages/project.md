@@ -32,4 +32,4 @@ author_profile: true
 > 프로그램 설명
 
 홈 화면
-[index](/assets/images/index.jpg)
+[홈 화면](/assets/images/index.jpg)
