@@ -11,4 +11,8 @@ author_profile: true
 조원들과 java, jQuery, ajax, spring, oracle을 이용한 프로젝트를 수행하였으며
 백엔드 개발자의 꿈이 있습니다.
 
-[프로젝트](https://https://2KyeongWong.github.io/Project/)
+아직 많은 프로젝트를 진행해보지 못하였지만 혼자 생각하며 고민하는 것보다
+회의를 통해 부족한 부분을 채우고 차근차근 공부하는 과정에서  
+팀원들과의 소통이 중요하다고 느꼈습니다.
+
+[프로젝트 내용입니다](https://https://2KyeongWong.github.io/Project/)
