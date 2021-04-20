@@ -31,43 +31,54 @@ author_profile: true
 
 > 프로그램 설명
 
-홈 화면, 로그인(세션이용), 회원가입
+**홈 화면, 로그인(세션이용), 회원가입**
 <img src="/assets/images/index.jpg" width="800" height="800"/>
 로그인 후 사이트 이용 가능, 회원가입 기능
 
-로그인 후 홈 화면
+**로그인 후 홈 화면**
 <img src="/assets/images/home.jpg" width="800" height="800"/>
 재고관리, 거래처 확인 등 확인가능
 
-재고 추가, 수정, 삭제
+**재고 추가, 수정, 삭제**
 <img src="/assets/images/edit.jpg" width="800" height="800"/>
 ajax를 이용해 재고 추가, 수정, 삭제 기능
 
-거래처 추가, 수정
+**거래처 추가, 수정**
 <img src="/assets/images/customer.jpg" width="800" height="800"/>
 ajax를 이용해 거래처 추가, 수정, 삭제 기능
 
-재고 알람
+**재고 알람**
 <img src="/assets/images/alarm.jpg" width="800" height="800"/>
 재고 수량이 5개 이하면 나타납니다
 
-주문, 입고
+**주문, 입고**
 <img src="/assets/images/order.jpg" width="800" height="800"/>
 주문시 바로 입고 처리 됩니다
 
-출고
+**출고**
 <img src="/assets/images/outcount.jpg" width="800" height="800"/>
 출고시 바로 출고 처리 됩니다
 
-출입고 확인
+**출입고 확인**
 <img src="/assets/images/inout.jpg" width="800" height="800"/>
 입출고 확인 기능입니다
 수량 x 가격 입니다 !
 
-1:1 문의사항
+**1:1 문의사항**
 <img src="/assets/images/question.jpg" width="800" height="800"/>
 DB에 글과 댓글 기능을 만들어 기본 템플릿을 가져와 코딩만 하였습니다
 
-1:1 문의사항 관리자 화면
+**1:1 문의사항 관리자 화면**
 <img src="/assets/images/masterquestion.jpg" width="800" height="800"/>
 관리자는 모든 회원 목록과 함께 대화 내용이 나옵니다
+
+사용한 Oracle Table
+
+테이블 이름: MEMBERS
+|순번|한글명|영문명|데이터타입|
+|:---:|:---:|:---:|:---:|
+|1|고객번호|MEMBER_NUM|NUMBER(5,0)|
+|2|고객이름|MEMBER_NAME|VARCHAR2(30)|
+|3|이메일|MEMBER_EMAIL|VARCHAR2(360)|
+|4|패스워드|MEMBER_PWD|VARCHAR2(60)|
+|5|장바구니|MEMBER_BASKET|NUMBER(5,0)|
