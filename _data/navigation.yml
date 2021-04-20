@@ -1,9 +1,9 @@
 # main links
 docs:
   - title: "Project"
-    url: /docs/Project/
+    url: /_pages/Project/
   - title: "About"
-    url: /docs/about/
+    url: /_pages/about/
   #- title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
