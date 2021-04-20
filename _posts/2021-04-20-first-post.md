@@ -5,9 +5,8 @@ excerpt: "깃허브에서 블로그 시작한다ㅎ"
 categories: -Blog
 tags: -Blog
 
-author_profile: true
 sidebar:
-nav: "main"
+  nav: "docs"
 
 last_modified_at: 2021-04-20T16:26:00
 ---
