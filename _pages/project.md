@@ -62,7 +62,7 @@ ajax를 이용해 거래처 추가, 수정, 삭제 기능
 출입고 확인
 <img src="/assets/images/inout.jpg" width="800" height="800"/>
 입출고 확인 기능입니다
-수량 \* 가격 입니다 !
+수량 x 가격 입니다 !
 
 1:1 문의사항
 <img src="/assets/images/question.jpg" width="800" height="800"/>
