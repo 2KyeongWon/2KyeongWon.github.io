@@ -32,4 +32,31 @@ author_profile: true
 > 프로그램 설명
 
 홈 화면, 로그인(세션이용), 회원가입
-<img src="/assets/images/index.jpg" width="300" height="300"/>
+<img src="/assets/images/index.jpg" width="500" height="500"/>
+
+로그인 후 홈 화면
+<img src="/assets/images/home.jpg" width="500" height="500"/>
+
+재고 추가, 수정, 삭제
+<img src="/assets/images/edit.jpg" width="500" height="500"/>
+
+거래처 추가, 수정
+<img src="/assets/images/customer.jpg" width="500" height="500"/>
+
+재고 알람
+<img src="/assets/images/alarm.jpg" width="500" height="500"/>
+
+주문, 입고
+<img src="/assets/images/order.jpg" width="500" height="500"/>
+
+출고
+<img src="/assets/images/outcount.jpg" width="500" height="500"/>
+
+출입고 확인
+<img src="/assets/images/inout.jpg" width="500" height="500"/>
+
+1:1 문의사항
+<img src="/assets/images/question.jpg" width="500" height="500"/>
+
+1:1 문의사항 관리자 화면
+<img src="/assets/images/masterquestion.jpg" width="500" height="500"/>
