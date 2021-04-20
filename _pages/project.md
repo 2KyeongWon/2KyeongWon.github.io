@@ -31,5 +31,5 @@ author_profile: true
 
 > 프로그램 설명
 
-홈 화면
-<img src="/assets/images/cat.jpg"/>
+홈 화면, 로그인(세션이용), 회원가입
+<img src="/assets/images/index.jpg" width="300" height="300"/>
