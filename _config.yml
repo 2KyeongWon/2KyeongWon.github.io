@@ -265,7 +265,7 @@ defaults:
       type: docs
       values:
       sidebar:
-      nav: "main"
+      nav: "docs"
   # _posts
   - scope:
       path: ""
