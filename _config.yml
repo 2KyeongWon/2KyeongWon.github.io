@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name: "이경원"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/cat.jpg"
   bio: "안녕하세요 초보입니다"
   location: "Busan,Korea"
   email:
