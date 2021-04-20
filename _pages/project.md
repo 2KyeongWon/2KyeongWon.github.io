@@ -72,9 +72,10 @@ DB에 글과 댓글 기능을 만들어 기본 템플릿을 가져와 코딩만 
 <img src="/assets/images/masterquestion.jpg" width="800" height="800"/>
 관리자는 모든 회원 목록과 함께 대화 내용이 나옵니다
 
-사용한 Oracle Table
+> 사용한 Oracle Table
 
 테이블 이름: MEMBERS
+**고객정보**
 
 | 순번 |  한글명  |    영문명     |  데이터타입   |
 | :--: | :------: | :-----------: | :-----------: |
@@ -83,3 +84,85 @@ DB에 글과 댓글 기능을 만들어 기본 템플릿을 가져와 코딩만 
 |  3   |  이메일  | MEMBER_EMAIL  | VARCHAR2(360) |
 |  4   | 패스워드 |  MEMBER_PWD   | VARCHAR2(60)  |
 |  5   | 장바구니 | MEMBER_BASKET |  NUMBER(5,0)  |
+
+테이블 이름: IM
+**재고목록**
+
+| 순번 |  한글명  |   영문명   |  데이터타입   |
+| :--: | :------: | :--------: | :-----------: |
+|  1   | 고객번호 | MEMBER_NUM |  NUMBER(5,0)  |
+|  2   |   번호   |    IDX     |  NUMBER(5,0)  |
+|  3   | 상품코드 |    CODE    | VARCHAR2(30)  |
+|  4   |  상품명  |    NAME    | VARCHAR2(30)  |
+|  5   |   가격   |   PRICE    |  NUMBER(5,0)  |
+|  6   |  거래처  |   MARKET   | VARCHAR2(300) |
+|  7   |   비고   |  REMARKS   | VARCHAR2(360) |
+|  8   |   수량   |  QUANTITY  |  NUMBER(5,0)  |
+|  9   |   날짜   |  REGDATE   | VARCHAR2(300) |
+
+테이블 이름: CUSTOMERS
+**거래처목록**
+
+| 순번 |  한글명  |   영문명   |  데이터타입   |
+| :--: | :------: | :--------: | :-----------: |
+|  1   | 고객번호 | MEMBER_NUM |  NUMBER(5,0)  |
+|  2   |   번호   |    IDX     |  NUMBER(5,0)  |
+|  3   |   분류   |    CODE    | VARCHAR2(60)  |
+|  4   | 거래처명 |    NAME    | VARCHAR2(60)  |
+|  5   |   전화   |   PRICE    | VARCHAR2(60)  |
+|  6   |  이메일  |   MARKET   | VARCHAR2(300) |
+|  7   |   비고   |  REMARKS   | VARCHAR2(360) |
+
+테이블 이름: BASKET
+**장바구니**
+
+| 순번 |  한글명  |   영문명   |  데이터타입   |
+| :--: | :------: | :--------: | :-----------: |
+|  1   | 고객번호 | MEMBER_NUM |  NUMBER(5,0)  |
+|  2   |   번호   |    IDX     |  NUMBER(5,0)  |
+|  3   | 상품코드 |    CODE    | VARCHAR2(60)  |
+|  4   |  상품명  |    NAME    | VARCHAR2(60)  |
+|  5   |   가격   |   PRICE    |  NUMBER(5,0)  |
+|  6   |  거래처  |   MARKET   | VARCHAR2(300) |
+
+테이블 이름: OUTCOUNTBASKET
+**출고목록**
+
+| 순번 |  한글명  |   영문명   |  데이터타입   |
+| :--: | :------: | :--------: | :-----------: |
+|  1   | 고객번호 | MEMBER_NUM |  NUMBER(5,0)  |
+|  2   |   번호   |    IDX     |  NUMBER(5,0)  |
+|  3   | 상품코드 |    CODE    | VARCHAR2(30)  |
+|  4   |  상품명  |    NAME    | VARCHAR2(30)  |
+|  5   |   가격   |   PRICE    |  NUMBER(5,0)  |
+|  6   |  거래처  |   MARKET   | VARCHAR2(300) |
+
+테이블 이름: INOUTCOUNT
+**출입고테이블**
+
+| 순번 |   한글명   |   영문명   |  데이터타입   |
+| :--: | :--------: | :--------: | :-----------: |
+|  1   |  고객번호  | MEMBER_NUM |  NUMBER(5,0)  |
+|  2   |    번호    |    IDX     |  NUMBER(5,0)  |
+|  3   |  상품코드  |    CODE    | VARCHAR2(30)  |
+|  4   |   상품명   |    NAME    | VARCHAR2(30)  |
+|  5   |   거래처   |   MARKET   | VARCHAR2(30)  |
+|  6   |    가격    |   PRICE    |  NUMBER(5,0)  |
+|  7   |    수량    |  QUANTITY  |  NUMBER(5,0)  |
+|  8   |    날짜    |  REGDATE   | VARCHAR2(300) |
+|  9   | 출입고구분 | COUNT_NUM  |  NUMBER(5,0)  |
+
+테이블 이름: MBOARD
+**1:1문의테이블**
+
+| 순번 |  한글명  |   영문명   |   데이터타입   |
+| :--: | :------: | :--------: | :------------: |
+|  1   | 고객번호 | MEMBER_NUM |  NUMBER(5,0)   |
+|  2   |   번호   |    IDX     |  NUMBER(5,0)   |
+|  3   | 문의내용 |    CONT    | VARCHAR2(1000) |
+|  4   | 문의답글 |   REPLY    | VARCHAR2(1000) |
+|  5   |   날짜   |  REGDATE   |  VARCHAR2(30)  |
+
+> 제작후기
+
+> 향후 구현 예정
