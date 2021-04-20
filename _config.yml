@@ -21,7 +21,7 @@ title_separator: # "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "초보 탈출 T^T"
 description: "초보개발자"
-url: https://2KyeongWong.github.io
+url: https://2KyeongWong.github.io/about/
 baseurl: #/2KyeongWon.github.io
 repository: #2KyeongWon.github.io
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -95,7 +95,7 @@ analytics:
 author:
   name: "이경원"
   avatar: "/assets/images/cat.jpg"
-  bio: "안녕하세요 초보입니다"
+  bio: "안녕하세요"
   location: "Busan,Korea"
   email:
   links:

@@ -1,17 +1,13 @@
 ---
-title: "이 블로그 설명서"
+title: "자기소개"
 permalink: /about/
 layout: single
-
-author_profile: true
-sidebar:
-nav: "main"
 ---
 
-## devinlife.github.io 블로그
+### 안녕하세요
 
-이 블로그는 GitHub Pages 블로그 서비스인 github.io를 같이 만들어보는 샘플 블로그이다.
+작년 11월부터 올해 4월까지 자바 & 스프링 프레임워크 훈련 과정을 끝낸 후
+조원들과 java, jQuery, ajax, spring, oracle을 이용한 프로젝트를 수행하였으며
+백엔드 개발자의 꿈이 있습니다.
 
-진짜 블로그인 <https://devinlife.com>을 방문해보자.
-이 곳에서 이 샘플 블로그를 같이 만들어보는 GitHub Pages 블로그 따라하기 시리즈의
-모든 글을 볼 수 있다.
+[프로젝트](https://https://2KyeongWong.github.io/Project/)
