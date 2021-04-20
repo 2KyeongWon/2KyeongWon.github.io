@@ -259,6 +259,13 @@ compress_html:
 
 # Defaults
 defaults:
+  #_main
+  - scope:
+      path: ""
+      type: main
+    values:
+      sidebar:
+        nav: "main"
   # _posts
   - scope:
       path: ""
@@ -266,8 +273,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar:
-      nav: "main"
       read_time: true
       comments: # true
       share: true
