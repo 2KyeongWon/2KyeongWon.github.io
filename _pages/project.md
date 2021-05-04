@@ -32,7 +32,7 @@ author_profile: true
 > 프로그램 설명
 
 **홈 화면, 로그인(세션이용), 회원가입**
-<img src="/assets/images/index.jpg" width="800" height="800"/>
+<img src="/assets/images/index.jpg" width="1100" height="900"/>
 로그인 후 사이트 이용 가능, 회원가입 기능
 
 **로그인 후 홈 화면**
